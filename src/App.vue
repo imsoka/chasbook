@@ -6,4 +6,9 @@ import { RouterView } from "vue-router";
   <RouterView />
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+    body {
+        background-image: url("./src/assets/img/bg/bg.gif");
+        padding-block: 3rem;
+    }
+</style>

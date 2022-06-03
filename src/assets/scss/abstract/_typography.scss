@@ -1,0 +1,53 @@
+@font-face {
+    src: url("./src/assets/font/teko/Teko-Light.ttf");
+
+    font-family: "Teko";
+    font-weight: 300;
+}
+
+@font-face {
+    src: url("./src/assets/font/teko/Teko-Regular.ttf");
+
+    font-family: "Teko";
+    font-weight: 400;
+}
+
+@font-face {
+    src: url("./src/assets/font/teko/Teko-Medium.ttf");
+
+    font-family: "Teko";
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("./src/assets/font/teko/Teko-SemiBold.ttf");
+
+    font-family: "Teko";
+    font-weight: 600;
+}
+
+@font-face {
+    src: url("./src/assets/font/teko/Teko-Bold.ttf");
+
+    font-family: "Teko";
+    font-weight: 700;
+}
+
+@font-face {
+    src: url("./src/assets/font/montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    src: url("./src/assets/font/montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    src: url("./src/assets/font/montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+
+    font-style: italic;
+}
+
+*,
+*::before,
+*::after {
+    font-family: "Teko";
+}

@@ -7,7 +7,7 @@ const props = defineProps<Props>();
 </script>
 
 <template>
-  <img class="planet" src="public/img/planets/earth.png" />
+  <img class="planet" src="img/planets/earth.png" />
 </template>
 
 <script lang="ts"></script>

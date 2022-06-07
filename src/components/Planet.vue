@@ -1,13 +1,15 @@
 <script setup lang="ts">
+import earth from "@/assets/img/planets/earth.png";
+
 interface Props {
-  type: string;
+  type?: string;
 }
 
 const props = defineProps<Props>();
 </script>
 
 <template>
-  <img class="planet" src="img/planets/earth.png" />
+  <img class="planet" :src="earth" />
 </template>
 
 <script lang="ts"></script>

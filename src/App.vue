@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
+import bg from "@/assets/bg/bg.gif";
 </script>
 
 <template>
@@ -7,8 +8,7 @@ import { RouterView } from "vue-router";
 </template>
 
 <style lang="scss">
-body {
-  background-image: url("img/bg/bg.gif");
-  padding-block-start: 10vh;
-}
 </style>
+
+<script lang="ts">
+</script>

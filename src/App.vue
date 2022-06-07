@@ -8,7 +8,7 @@ import { RouterView } from "vue-router";
 
 <style lang="scss">
 body {
-  background-image: url("img/bg/bg.gif");
+  background-image: url("assets/img/bg/bg.gif");
   padding-block-start: 10vh;
 }
 </style>

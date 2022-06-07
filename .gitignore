@@ -28,3 +28,6 @@ coverage
 
 #Images
 src/assets/img/*
+
+# Local Netlify folder
+.netlify

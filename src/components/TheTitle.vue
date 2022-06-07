@@ -20,31 +20,46 @@
 <script lang="ts">
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     .title {
         text-align: center;
         color: white;
-    }
 
-    .title__name {
-        font-size: 4em;
-        line-height: 1em;
-        vertical-align: bottom;
-    }
+        &__name {
+            font-size: 4em;
+            line-height: 1em;
+            vertical-align: bottom;
+        }
 
-    .title__surname {
-        font-size: 2em;
-        margin-block-start: -0.5rem;
-    }
+        &__surname {
+            font-size: 2em;
+            margin-block-start: -0.5rem;
+        }
 
-    .title__job {
-        border-block-start: 1px solid white;
-        padding-block-start: 0.5rem;
-        font-size: 1.25em;
+        &__job {
+            border-block-start: 1px solid white;
+            padding-block-start: 0.5rem;
+            font-size: 1.25em;
+        }
     }
 
     .inverted {
         color: black;
         border-color: black;
+    }
+
+    @media only screen and (min-width: 1280px) {
+        .title__name {
+            font-size: 8em;
+            line-height: 0.8em;
+        }
+
+        .title__surname {
+            font-size: 3.7em;
+        }
+
+        .title__job {
+            font-size: 2em;
+        }
     }
 </style>

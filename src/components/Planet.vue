@@ -15,6 +15,9 @@
 
 <style lang="scss">
     .planet {
-        width: 150px;
+        position: absolute;
+        width: 10rem;
+        bottom: 10em;
+        right: 0;
     }
 </style>

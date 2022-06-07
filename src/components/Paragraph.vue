@@ -1,19 +1,29 @@
 <script setup lang="ts">
     interface Props {
         content?: string;
+        justify?: boolean;
     }
 
-    const {
-        content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et gravida quam. Nullam eu eleifend sapien, sit amet blandit lectus. Quisque sit amet sagittis lorem, at aliquet odio. Quisque aliquet sit amet dolor a consequat. Aliquam interdum suscipit erat, sed vehicula tellus. In quis commodo ex. Suspendisse potenti.",
-
-    } = defineProps<Props>();
+    const props = defineProps<Props>();
 </script>
 
 <template>
-    <p>
+    <p class="paragraph__text" :class="{justified : justify }">
         {{ content }}
     </p>
 </template>
 
 <style lang="scss">
+    .paragraph__text {
+        font-family: "montserrat" !important;
+        font-family: inherit;
+        margin-inline: auto;
+        font-size: 1em;
+        line-height: 1.2em;
+        font-weight: 300;
+    }
+
+    .justified {
+        text-align: justify;
+    }
 </style>

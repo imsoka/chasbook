@@ -1,43 +1,28 @@
 <script setup lang="ts">
     import TheTitle from "@/components/TheTitle.vue";
     import Planet from "@/components/Planet.vue";
-    import Paragraph from "@/components/Paragraph.vue";
+    import TheVideo from "@/components/TheVideo.vue";
 </script>
 
 <template>
-  <header>
+  <header class="header">
     <TheTitle name="HELENA" surnames="LOBERA ARROYO" job="CREATIVA"/>
   </header>
   <main>
-    <section aria-labelledby="introduction" class="content">
-        <Paragraph class="content__text"/>
-    </section>
+    <TheVideo youtube src="https://www.youtube-nocookie.com/embed/LDU_Txk06tM?controls=0"/>
   </main>
-  <footer>
+  <footer class="footer">
   </footer>
 </template>
 
 <style lang="scss">
-    header {
+    .header {
         display: flex;
         justify-content: center;
+        height: 20vh;
     }
 
-    .content {
-        font-family: "montserrat";
-        margin-block-start: 3rem;
-        height: 40vh;
+    .footer {
 
-        &__text {
-            font-family: inherit;
-            margin-inline: auto;
-            text-align: justify;
-            font-size: 1em;
-            line-height: 1.2em;
-            font-weight: 300;
-            max-width: 80%;
-        }
-    }
-    .planet {
     }
 </style>

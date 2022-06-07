@@ -15,6 +15,7 @@ import bg from "@/assets/img/bg/bg.gif";
         youtube
         src="https://www.youtube-nocookie.com/embed/LDU_Txk06tM?controls=0"
       />
+      <Planet/>
     </main>
     <footer class="footer"></footer>
   </div>

@@ -12,13 +12,13 @@ export default defineConfig({
     },
   },
   css: {
-      preprocessorOptions: {
-          scss: {
-              additionalData: `
+    preprocessorOptions: {
+      scss: {
+        additionalData: `
                 @use "./src/assets/scss/base";
                 @use "./src/assets/scss/abstract/typography";
-              `
-          }
-      }
+              `,
+      },
+    },
   },
 });

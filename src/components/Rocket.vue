@@ -1,12 +1,10 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
-<template>
-</template>
+<template></template>
 
 <style lang="scss">
-    .rocket {
-        display: flex;
-        align-items: center;
-    }
+.rocket {
+  display: flex;
+  align-items: center;
+}
 </style>

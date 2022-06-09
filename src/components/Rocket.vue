@@ -1,10 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Rocket from "@/assets/img/rocket/rocket.png";
+</script>
 
-<template></template>
+<template>
+    <img class="rocket" :src="Rocket"/>
+</template>
 
 <style lang="scss">
-.rocket {
-  display: flex;
-  align-items: center;
-}
 </style>

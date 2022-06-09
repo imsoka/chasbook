@@ -1,14 +1,20 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
-import bg from "@/assets/bg/bg.gif";
+import bg from "@/assets/img/bg/bg.gif";
 </script>
 
 <template>
-  <RouterView />
+    <div class="root" :style="{ backgroundImage: `url(${bg})` }">
+        <RouterView />
+    </div>
 </template>
 
 <style lang="scss">
+.root {
+    min-height: 100vh;
+}
+.hidden {
+    display: none;
+    opacity: 0;
+}
 </style>
-
-<script lang="ts">
-</script>

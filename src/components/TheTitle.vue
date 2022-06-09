@@ -49,7 +49,7 @@ const props = defineProps<Props>();
   border-color: black;
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1024px) {
   .title__name {
     font-size: 8em;
     line-height: 0.8em;
